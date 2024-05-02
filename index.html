@@ -7,7 +7,7 @@
         <link rel="icon" href="https://s1.ax1x.com/2023/08/20/pP86kin.png">
         <link rel="shortcut icon" href="https://s1.ax1x.com/2023/08/20/pP86kin.png">
         <style>
-            #body{
+             body{
                 text-align: center;
             }
             .title{
@@ -48,13 +48,7 @@
                 border: 2px solid #f1f1f1;
             }
         </style>
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+   </head>
 <body>
     <div id="body">
         <div class="title">Spornsor~❤️</div>
@@ -63,5 +57,16 @@
             <div class="inbox"><img class="img" src="https://s1.imagehub.cc/images/2024/04/21/ff4f3956543402c44b1f1efd2e6b2b1b.png" width="300px" height="410px" alt="some_text"></div>
         </div>
     </div>
+
+    <div class="starfield"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="starfield.js"></script>
+    <script>
+        $(document).ready( function(){
+            $('.starfield').starfield();
+        });
+    </script>
 </body>
 </html>
